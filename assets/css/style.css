@@ -43,7 +43,7 @@ footer {
 }
 
 header {
-  position: fixed;
+  position: relative;
   border-bottom: 10px solid #ece7e7;
 }
 
@@ -68,18 +68,9 @@ section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #070707;
-  background-color:  #e08f0c;
+  background-color:  black;
 }
 
-form {
-  /* Center the form on the page */
-  margin: 0 auto;
-  width: 500px;
-  padding: 10px;
-  border: 5px solid #f4f3f3;
-  border-radius: 20px;
-  text-align: center;
-}
 
 label {
   display: inline-block;
@@ -94,17 +85,6 @@ textarea {
   border: 1px solid #ffffff;
 }
 
-textarea {
-  vertical-align: top;
-  height: 60px;
-}
-  
-button {
-  height: 40px;
-  width: 120px;
-  background-color: #f9f9f9;
-  color: #000000;
-}
  
 /* Class Selectors */
 .text-center {
@@ -114,4 +94,9 @@ button {
 
 .text-right {
   text-align: center;
+}
+
+.band-image {
+  width: 800px;
+  height: auto;
 }
