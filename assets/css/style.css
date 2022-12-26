@@ -10,7 +10,7 @@ body {
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
   background-color: #fff7f7;
-  color: #2409ec;
+  color: darkorange;
 }
 
 h1,
@@ -45,6 +45,7 @@ footer {
 header {
   position: relative;
   border-bottom: 10px solid #ece7e7;
+  background-color: #070707;
 }
 
 footer {
@@ -52,6 +53,7 @@ footer {
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid #0b0b0b;
+  background-color: #070707;
   color: #FDF8F5;    
 }
 
@@ -100,3 +102,17 @@ textarea {
   width: 800px;
   height: auto;
 }
+
+figcaption ul li {
+  display: block;
+  text-align: center;
+}
+
+.h2-songs {
+  text-align: center;
+}
+
+.tmom-album {
+  text-align: center;
+}
+
